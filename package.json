@@ -1,0 +1,21 @@
+{
+  "name": "learning-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "docs": "./node_modules/.bin/typedoc --out ./docs src/ --jsx react --module commonjs --ignoreCompilerErrors --hideGenerator --theme minimal"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "devDependencies": {
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2",
+    "typedoc": "^0.3.12"
+  }
+}
